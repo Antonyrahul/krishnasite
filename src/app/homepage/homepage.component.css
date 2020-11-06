@@ -1,0 +1,55 @@
+*{margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kucchi';
+}
+
+.desktop{
+   
+   position: relative;
+    min-height: 100vh;
+    display: flex;
+}
+.mobile{
+    display:block
+}
+
+.imagediv{
+    
+    
+    margin-left:250px;
+    margin-top: 100px;
+}
+.desktop_img
+{
+    height: 400px;
+    width: 400px;
+    
+
+
+}
+.mobile_img{
+    height: 300px;
+    width: 300px;
+}
+.imagediv{
+    float: left;
+    
+}
+.textdiv{
+    
+    float: right;
+    margin-top: 225px;
+    text-align: center;
+}
+.boldclass{
+    font-size: larger;
+}
+.lightclass{
+    font-size: medium;
+    color: gray;
+}
+svg{
+    margin-left: 10px;
+    cursor: pointer;
+}
