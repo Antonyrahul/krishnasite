@@ -28,6 +28,10 @@ isdesktop=false;
 
   ngOnInit(): void {
   }
+  openurlinnewtab(link)
+  {
+    window.open(link, "_blank");
+  }
 
  
 

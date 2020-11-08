@@ -3,27 +3,34 @@
     box-sizing: border-box;
     font-family: 'Kucchi';
 }
+body{
+    background-color: greenyellow;
+}
 
 .desktop{
    
-   position: relative;
+   
     min-height: 100vh;
     display: flex;
 }
 .mobile{
-    display:block
+    display:block;
+    height: 100vh;
 }
 
 .imagediv{
     
-    
-    margin-left:250px;
+    float: left;
+    margin-left:12.5%;
     margin-top: 100px;
+    
+    max-width: 30%;
+    
 }
 .desktop_img
 {
-    height: 400px;
-    width: 400px;
+    height: 63.5%;
+    width: 100%;
     
 
 
