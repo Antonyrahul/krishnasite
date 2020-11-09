@@ -14,49 +14,58 @@ body{
     display: flex;
 }
 .mobile{
-    display:block;
-    height: 90vh;
+    
+    height: 50vh;
 }
 
 .imagediv{
     
     float: left;
-    margin-left:14%;
-    margin-top: 100px;
+    margin-left:18.5%;
     
-    max-width: 27.5%;
+    
+    max-width: 29%;
     
 }
 .desktop_img
 {
-    height: 63.5%;
+    height: 46%;
     width: 100%;
+    margin-top: 37%;
     
 
 
 }
 .mobile_img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
 }
-.imagediv{
-    float: left;
-    
-}
+
 .textdiv{
     
     float: right;
-    margin-top: 225px;
-    text-align: center;
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 50px;
 }
 .boldclass{
     font-size: larger;
+}
+.boldclassmobile{
+    font-size: large;
 }
 .lightclass{
     font-size: medium;
     color: gray;
 }
+svg.iconsclass{
+    margin-left: 12px;
+    
+}
 svg{
-    margin-left: 10px;
     cursor: pointer;
+}
+pre{
+text-align: left;
+    white-space: pre-line;
 }
