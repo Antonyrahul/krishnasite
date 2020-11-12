@@ -11,7 +11,8 @@ body{
    
    
     min-height: 100vh;
-    display: flex;
+    position: relative;
+    
 }
 .mobile{
     
@@ -20,18 +21,23 @@ body{
 
 .imagediv{
     
-    float: left;
-    margin-left:18.5%;
+    
+    /* margin-left:18.5%; */
+    
+    /* position: absolute; */
+    right: 0;
     
     
-    max-width: 29%;
+    
+    
     
 }
 .desktop_img
 {
-    height: 46%;
-    width: 100%;
-    margin-top: 37%;
+    float: right;
+    height: 350px;
+    width: 450px;
+    margin-top: 22%; 
     
 
 
@@ -43,13 +49,16 @@ body{
 
 .textdiv{
     
-    float: right;
-    margin-top: 15%;
+    position: absolute;
+    margin-top: 33%;
     text-align: left;
     margin-left: 50px;
+    
+    
 }
 .boldclass{
     font-size: larger;
+    
 }
 .boldclassmobile{
     font-size: large;
