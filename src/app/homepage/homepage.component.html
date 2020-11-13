@@ -121,7 +121,7 @@
 
 </div>
 <div *ngIf="this.isdesktop!=true" class="mobile" style="text-align: center;">
-    <div class="row" style="margin-top:22%">
+    <div class="row" [ngStyle]="{'margin-top':margintop+'px'}">
         <div class="col-12">
             <img class="mobile_img" src="../../assets/krishnaprofile.jpg" alt="">
         </div>
